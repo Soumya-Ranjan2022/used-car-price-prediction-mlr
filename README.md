@@ -2,21 +2,19 @@
 
 A machine learning project to forecast used car prices using Multiple Linear Regression (MLR).
 
-📌 Project Overview
+## Project Overview
 
-This project applies Multiple Linear Regression (MLR) to predict the prices of used cars based on various features such as age, mileage (KM), fuel type, horsepower (HP), engine capacity (CC), transmission type, number of doors, weight, and quarterly tax.
+This project applies Multiple Linear Regression (MLR) to predict the Prices of used cars based on various features such as Age, Total Kilometers driven (KM), Fuel type, Horsepower (HP), Engine capacity (CC), Transmission type (Automatic), Number of doors, Number of Cylinders, Number of Gears, and Weight of the car.
 
 The goal is to analyze factors influencing car prices and build a regression model that can forecast prices effectively.
 
-⚙️ Workflow
+## Workflow
 
 Data Preprocessing
 
 Handle missing values
 
 Encode categorical variables
-
-Normalize/scale numerical features
 
 Exploratory Data Analysis (EDA)
 
@@ -30,29 +28,21 @@ Model Building
 
 Implement Multiple Linear Regression
 
-Check assumptions (linearity, multicollinearity, homoscedasticity, normality of residuals)
+Model Evaluation (R², MSE, RMSE)
 
-Model Evaluation
-
-R² and Adjusted R²
-
-Root Mean Squared Error (RMSE)
-
-Residual analysis
+Check assumptions (multicollinearity, homoscedasticity, normality of residuals)
 
 Insights
 
-Identify key features affecting used car prices
 
-Understand business implications in pricing strategy
 
-📊 Dataset
+## Dataset
 
 The dataset contains features such as:
 
 Age: Age of the car (in years)
 
-KM: Mileage in kilometers
+KM:  Total kilometers driven
 
 FuelType: Type of fuel (Petrol/Diesel/CNG)
 
@@ -64,13 +54,15 @@ CC: Engine capacity
 
 Doors: Number of doors
 
-Weight: Car weight
+Cylinders: Number of cylinders
 
-Quarterly_Tax: Tax associated with the car
+Gears: Number of gears
+
+Weight: Car weight
 
 Price: Target variable (used car price)
 
-🚀 Technologies Used
+## Technologies Used
 
 Python
 
@@ -82,34 +74,22 @@ Scikit-learn & Statsmodels – Model building and evaluation
 
 Jupyter Notebook – Interactive development
 
-📈 Results
+ ## Results
 
 Built a regression model explaining the relationship between car features and price.
 
-Identified age, mileage, fuel type, horsepower, and weight as major influencing factors.
+Identified Age, KM, and weight as major influencing factors.
 
-Achieved a good fit with R² and Adjusted R², validating the effectiveness of MLR.
+Achieved a good fit with R² and RMSE, validating the effectiveness of MLR.
 
-📂 Repository Structure
+## Repository Structure
 ├── data/                  # Dataset (if included or linked)  
 ├── notebooks/             # Jupyter notebooks for analysis  
-├── scripts/               # Python scripts for preprocessing & modeling  
-├── results/               # Plots, residuals, evaluation metrics  
 ├── README.md              # Project documentation  
 
-🔮 Future Improvements
 
-Compare with advanced models (Ridge, Lasso, Random Forest)
+## 👨‍💻 Author  
+**Soumya**  
+- 💼 [LinkedIn](https://www.linkedin.com/in/your-username/)  
+- 📧 [Email](mailto:yourname@example.com)  
 
-Hyperparameter tuning for better performance
-
-Deploy the model as a web app for real-time predictions
-
-👨‍💻 Author
-
-Soumya
-
-Data Science & Machine Learning Enthusiast
-
-💼 LinkedIn
- | 📧 Email
