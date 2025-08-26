@@ -83,7 +83,7 @@ Identified Age, KM, and weight as major influencing factors.
 Achieved a good fit with R² and RMSE, validating the effectiveness of MLR.
 
 ## Repository Structure
-├── data/                  # Dataset (if included or linked)  
+├── data/                  # Dataset  
 ├── notebooks/             # Jupyter notebooks for analysis  
 ├── README.md              # Project documentation  
 
