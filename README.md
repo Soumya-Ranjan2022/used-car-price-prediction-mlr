@@ -89,7 +89,7 @@ Achieved a good fit with R² and RMSE, validating the effectiveness of MLR.
 
 
 ## 👨‍💻 Author  
-**Soumya**  
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-username/)  
-- 📧 [Email](mailto:yourname@example.com)  
+**Soumya Ranjan Moharana**  
+- 💼 [LinkedIn](https://www.linkedin.com/in/soumya-ranjan-moharana-914477268)  
+- 📧 [Email](mailto:soumyaranjanmoharana56@gmail.com)  
 
