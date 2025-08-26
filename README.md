@@ -1,4 +1,4 @@
-Used Car Price Forecasting via Multiple Linear Regression
+# Used Car Price Forecasting via Multiple Linear Regression
 
 A machine learning project to forecast used car prices using Multiple Linear Regression (MLR).
 
